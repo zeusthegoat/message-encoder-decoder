@@ -1,0 +1,16 @@
+{
+    "name": "message-encoder-decoder",
+    "version": "1.0.0",
+    "description": "A web application for encoding and decoding messages",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "body-parser": "^1.19.0",
+      "express": "^4.17.1"
+    },
+    "author": "Anthony Oduwole",
+    "license": "ISC"
+  }
+  

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message Encoder/Decoder</title>
+</head>
+<body>
+  <h1>Message Encoder/Decoder</h1>
+  <h2>Encode</h2>
+  <form id="encode-form">
+    <label for="encode-input">Message:</label>
+    <input type="text" id="encode-input" required>
+    <label for="encode-type">Method:</label>
+    <select id="encode-type">
+      <option value="caesar">Caesar Cipher</option>
+      <option value="symbol">Symbol Cipher</option>
+      <option value="reverse">Reverse Cipher</option>
+    </select>
+    <button type="submit">Encode</button>
+  </form>
+  <p id="encoded-message"></p>
+  
+  <h2>Decode</h2>
+  <form id="decode-form">
+    <label for="decode-input">Message:</label>
+    <input type="text" id="decode-input" required>
+    <label for="decode-type">Method:</label>
+    <select id="decode-type">
+      <option value="caesar">Caesar Cipher</option>
+      <option value="symbol">Symbol Cipher</option>
+      <option value="reverse">Reverse Cipher</option>
+    </select>
+    <button type="submit">Decode</button>
+  </form>
+  <p id="decoded-message"></p>
+  
+  <script src="script.js"></script>
+</body>
+</html>
